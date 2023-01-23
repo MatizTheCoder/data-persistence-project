@@ -38,6 +38,11 @@ public class MainManager : MonoBehaviour
         }
     }
 
+    public void StartNew()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     private void Update()
     {
         if (!m_Started)
